@@ -1,6 +1,15 @@
+body {
+    /* arka plan rengini ayarlama */
+    background-color: cyan;
+    /* yazı fontlarını ayarlama */
+    font-family: 'Times New Roman', Times, sans-serif;
+}
+
 h3 {
     color: black;
     font-size: 30px;
+    /*yazılan herşeyi büyük harf yapar */
+    text-transform: uppercase;
 }
 
 p2 {
