@@ -1,0 +1,32 @@
+    /* class --> .text-red{} */
+    /* id --> #id-bilgisi{} */
+    
+    h1,
+    h2,
+    h3 {
+        color: lightseagreen;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+    
+    #first-article {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .text-red {
+        color: red
+    }
+    
+    .fs-small {
+        font-size: 14px;
+    }
+    
+    .fs-medium {
+        font-size: 20px;
+    }
+    
+    .fs-large {
+        font-size: 50px;
+    }
