@@ -1,0 +1,195 @@
+body {
+    background-color: rgb(95, 205, 230);
+}
+
+.sidebar {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    font-size: 20px;
+    background: #191919;
+    min-height: 100vh;
+}
+
+.nav {
+    position: relative;
+    margin: 50 10%;
+    text-align: left;
+    top: 30%;
+    transform: translateY(-50%);
+    font-weight: bold;
+}
+
+.nav ul {
+    list-style: none;
+    font-family: monospace;
+    transition: 1.5s;
+}
+
+.nav ul a {
+    transition: 0.8s;
+    color: #723feb;
+    font-family: monospace;
+}
+
+.nav ul .active a {
+    color: yellow;
+    font-family: cursive;
+}
+
+.nav ul a:hover {
+    color: chartreuse;
+}
+
+a {
+    line-height: 5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.4em;
+    color: black;
+    transition: 0.6s;
+}
+
+.active a {
+    color: black;
+}
+
+section {
+    color: black;
+    margin-left: 26%;
+    font-family: monospace;
+    font-size: larger;
+}
+
+section p {
+    transition: 1.5s;
+}
+
+section p:hover {
+    color: chartreuse;
+}
+
+section .header {
+    text-shadow: 0 0 12px #FF0000, 0 0 20px #0000FF;
+    color: #723feb;
+    font-size: 60px;
+    padding-top: 50%;
+    font-weight: bold;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 20%
+}
+
+section span:hover {
+    color: aliceblue;
+    transition: 0.7s;
+}
+
+.footer ul {
+    font-size: medium;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.footer li {
+    color: #861818;
+    display: inline;
+    margin: 30px;
+    position: relative;
+}
+
+.footer ul a {
+    color: grey;
+    font-family: monospace;
+    transition: 0.8s;
+}
+
+.footer ul a:hover {
+    color: chartreuse;
+}
+
+section h1 {
+    text-shadow: 0 0 12px #FF0000, 0 0 20px #0000FF;
+    color: chartreuse;
+    font-size: 35px;
+    text-align: left;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+section .csgo img {
+    margin-left: 0%;
+    border-radius: 50% 20% / 10% 40%;
+    height: 250px;
+}
+
+section .csgo p {
+    text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+section .csgo p:hover {
+    font-size: 35px;
+}
+
+section .csgo {
+    margin-right: 30%;
+}
+
+section .nfs img {
+    margin-left: 59%;
+    border-radius: 50% 20% / 10% 40%;
+    height: 250px;
+}
+
+section .nfs p {
+    text-align: right;
+    text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+section .nfs p:hover {
+    font-size: 35px;
+}
+
+section .lol img {
+    /* margin-left: 33%; */
+    border-radius: 50% 20% / 10% 40%;
+    height: 250px;
+}
+
+section .lol p {
+    text-align: left;
+    text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+section .lol p:hover {
+    font-size: 35px;
+}
+
+section .mob img {
+    margin-left: 59%;
+    border-radius: 50% 20% / 10% 40%;
+    height: 250px;
+}
+
+section .mob p {
+    text-align: right;
+    text-shadow: 0 0 24px #FF0000, 0 0 40px #0000FF;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+section .mob p:hover {
+    font-size: 35px;
+}
