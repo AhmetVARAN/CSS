@@ -30,3 +30,26 @@
     .fs-large {
         font-size: 50px;
     }
+    /* css selectors */
+    
+    .color-blue.fw-normal {
+        color: blue;
+        font-weight: normal;
+    }
+    
+    .color-blue .fw-normal {
+        color: blue;
+        font-weight: normal;
+    }
+    
+    ol>li:first-child {
+        color: red;
+    }
+    
+    ol>li:last-child {
+        color: cyan;
+    }
+    
+    ul>li:nth-child(odd) {
+        color: aqua;
+    }
