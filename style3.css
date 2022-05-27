@@ -8,6 +8,18 @@ body {
     margin: 50px auto 0 auto;
 }
 
+.gradient {
+    background: linear-gradient(90deg, rgba(45, 156, 219, .6), rgba(155, 81, 224, .6));
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: wheat;
+    text-decoration: none;
+    text-shadow: 1px 1px;
+}
+
 .left-bar {
     width: 200px;
     float: left;
