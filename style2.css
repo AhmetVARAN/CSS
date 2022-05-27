@@ -53,3 +53,7 @@
     ul>li:nth-child(odd) {
         color: aqua;
     }
+    
+    .container>p.intro+ul>li:first-child {
+        color: orange;
+    }
